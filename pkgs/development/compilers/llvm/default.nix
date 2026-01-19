@@ -33,8 +33,8 @@ let
     "20.0.0-git".monorepoSrc = pkgs.fetchFromGitHub {
       owner = "bloomberg";
       repo = "clang-p2996";
-      rev = "5f70596665c2b47721c48d2e08ccfbfcf02ac216";
-      hash = "sha256-ORxJpiobPx/c33acuTisgBZkY+cLYj/2PNJbsm4dE5E=";
+      rev = "32ac4817fec4d4c8be2aadb27d2a7d1419e2ca49";
+      hash = "sha256-/asnyh/jfUNAUZOgiSD0aCg0bnCTPhUL5PDmNH217+E=";
     };
   } // llvmVersions;
 
