@@ -4862,6 +4862,8 @@ with pkgs;
       bolt_21 = llvmPackages_21.bolt;
       flang_21 = llvmPackages_21.flang;
 
+      llvmPackages_22 = llvmPackagesSet."22";
+
       mkLLVMPackages = llvmPackagesSet.mkPackage;
     })
     llvmPackages_18
@@ -4889,6 +4891,7 @@ with pkgs;
     llvm_21
     bolt_21
     flang_21
+    llvmPackages_22
     mkLLVMPackages
     ;
 
