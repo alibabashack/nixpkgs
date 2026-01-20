@@ -4893,6 +4893,7 @@ with pkgs;
     flang_21
     mkLLVMPackages
     ;
+    llvmPackages_p2996 = llvmPackages_21;
 
   mercury = callPackage ../development/compilers/mercury {
     jdk_headless = openjdk8_headless; # TODO: remove override https://github.com/NixOS/nixpkgs/pull/89731
