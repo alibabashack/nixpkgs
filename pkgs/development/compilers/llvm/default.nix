@@ -30,7 +30,7 @@ let
       owner = "bloomberg";
       repo = "clang-p2996";
       rev = "32ac4817fec4d4c8be2aadb27d2a7d1419e2ca49";
-      sha256 = "";
+      sha256 = "sha256-/asnyh/jfUNAUZOgiSD0aCg0bnCTPhUL5PDmNH217+E=";
     };
   }
   // llvmVersions;
